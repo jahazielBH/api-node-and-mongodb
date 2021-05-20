@@ -1,0 +1,20 @@
+{
+  "name": "node-token-jwt",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "latest",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "mongoose-double": "0.0.1",
+    "morgan": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
